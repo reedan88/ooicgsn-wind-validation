@@ -124,7 +124,7 @@ def parse_module(filepath):
 def main():
     """Parse all the swnd .mat files in the directory to .nc files"""
     parser = argparse.ArgumentParser()
-    parser.add_argument('dirname', required=True, help='name of the directory where the WND module files are saved')
+    parser.add_argument('dirname', help='name of the directory where the WND module files are saved')
     args = parser.parse_args()
     dirname = args.dirname
     
