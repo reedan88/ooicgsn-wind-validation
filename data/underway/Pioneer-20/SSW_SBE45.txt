@@ -1,0 +1,60 @@
+Instrument: Thermosalinograph
+Model: SBE45 MicroTSG
+S/N: 455469-0288 
+Calibration Date: 2023-06-11
+Installation Date: 2023-12-16
+Installation Location: wet lab inboard bulkhead  
+Distance from Water Line: See SSW_IntakeNotes.txt
+Updated: 2023-12-17 EFC
+
+RAW datafile:
+dsLog time stamp:
+SSW 2019/11/24 14:25:43.586 SBE45 
+
+SSW                 Science Salt Water
+2019/11/24          date in gmt
+14:25:43.586        time in gmt
+SBE45               data collected using SBE45
+data                22.5390,  5.25508,  36.5893, 1530.010
+
+
+22.5390,  5.25508,  36.5893, 1530.010
+
+Data Parsed:
+22.5390  	ttt.tttt temperature (degrees Celsius, ITS-90)
+5.25508  	cc.cccc conductiviy (S/m) mS/cm = 1-*S/m
+36.5893	        sss.ssss salinity (psu)
+1530.010	vvvv.vvv sound velocity (meters/second)
+
+
+Notes: 
+
+
+
+
+S>ds
+SBE45 V 1.0a  SERIAL NO. 0288   
+logging data
+sample interval = 1 seconds
+output conductivity with each sample
+output salinity with each sample
+output sound velocity with each sample
+start sampling when power on
+do not power off after taking a single sample
+do not power off after two minutes of inactivity
+A/D cycles to average = 4
+
+SERIALNO=0288
+TCALDATE=11-Jun-23
+TA0=-1.059994e-005
+TA1= 2.678013e-004
+TA2=-1.285049e-006
+TA3= 1.313776e-007
+CCALDATE=11-Jun-23
+CG=-1.005202e+000
+CH= 1.622278e-001
+CI=-3.566275e-004
+CJ= 5.517493e-005
+CTCOR= 3.250000e-006
+CPCOR=-9.570000e-008
+WBOTC= 3.341951e-007

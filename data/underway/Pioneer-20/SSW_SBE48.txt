@@ -1,0 +1,53 @@
+Instrument Make: SBE Hull Mounted Temperature Sensor
+Model: SBE48
+S/N: 0021
+Calibration Date: 2023-08-20
+Installation Date: 2023-12-16
+Installation Location: Lower Bow Thruster Room
+Distance From Water Line: 5m below
+Updated: 2023-12-17 EFC
+
+RAW datafile:
+dsLog time stamp:
+SSW 2016/03/30 02:02:20.296 SBE48
+
+SSW                 Science Salt Water
+2016/03/30          date in gmt
+02:02:20.296        time in gmt
+SBE48               data collected using SBE48
+data                # 14.2958, 08 Jun 2015, 12:12:14
+
+# 14.2958, 08 Jun 2015, 12:12:14
+
+Data Parsed:
+#		start of string
+14.2958		ttt.tttt temperature (degrees Celsius, ITS-90)
+8 Jun 2015	date (from instrument, not accurate)
+12:12:14	time (from instrument, not accurate)
+
+Notes:
+The instrument sends out two lines of data, the first is the command for 'send data'.
+The second line is the data.
+
+SSW 2016/03/30 02:02:20.159 SBE48 
+SSW 2016/03/30 02:02:20.296 SBE48 # 14.2958, 08 Jun 2015, 12:12:14
+
+SBE48 V 1.0  SERIAL NO. 0020    01 Jun 2020  08:12:50
+not logging: received stop command
+sample interval = 0 seconds
+number of samples to average = 0
+samplenumber = 0, free = 299593
+serial sync mode disabled
+real-time output enabled
+temperature = 15.20 deg C
+
+SERIALNO=0021
+TCALDATE=20-Aug-23
+TA0=-1.901550e-004
+TA1= 3.071984e-004
+TA2=-4.431928e-006
+TA3= 2.064295e-007
+RCALDATE=No-Cal
+RTCA0= 1.000000e+000
+RTCA1= 0.000000e+000
+RTCA2= 0.000000e+000

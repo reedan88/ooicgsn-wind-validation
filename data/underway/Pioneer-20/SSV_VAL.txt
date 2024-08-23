@@ -1,0 +1,29 @@
+Instrument Type: Valeport Modus SVS
+Model: Thru-hull SVS
+S/N:73015 
+Calibration Date: 2020-01-03
+Installation Date: 2020-02-20
+Installation Location: Thru-hull Wartsila valve in transducer room
+Distance from Water Line: -4.6m ABL 
+Updated 2020-06-09
+
+SSV 2020/06/09 19:02:14.329 VALEPORT_SSV 1501.967 M/SEC   0014.464 C
+
+RAW datafile:
+dsLog time stamp:
+SSV 2020/06/09 19:02:14.329 VALEPORT_SSV
+
+SSV 		Surface Sound Velocity
+2020/06/09	date in gmt
+19:02:14.329	time in gmt
+VALEPORT_SSV	data collected using valeport svs
+data 		1501.967 M/SEC   0014.464 C
+
+1501.967 M/SEC   0014.464 C
+
+Data Parsed:
+1501.967	vvvv.vvv sound velocity
+M/SEC		unit label meters per second
+0014.464	tttt.ttt temperature 
+C		unit label degrees celsius
+
